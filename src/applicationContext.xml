@@ -11,12 +11,7 @@
     <!-- "id" is an alias -->
     <!-- "class" is the fully qualified class name of our implementation class -->
     <bean id="myCoach"
-    	class="springdemo.TrackCoach">
+    	class="springdemo.BaseballCoach">
     </bean>
     
 </beans>
-
-
-
-
-
