@@ -7,7 +7,12 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- Define your beans here -->
+    <!-- BEAN CONFIGURATION -->
+    <!-- "id" is an alias -->
+    <!-- "class" is the fully qualified class name of our implementation class -->
+    <bean id="myCoach"
+    	class="springdemo.TrackCoach">
+    </bean>
     
 </beans>
 
