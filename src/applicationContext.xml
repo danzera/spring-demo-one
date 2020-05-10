@@ -10,8 +10,16 @@
     <!-- BEAN CONFIGURATION -->
     <!-- "id" is an alias -->
     <!-- "class" is the fully qualified class name of our implementation class -->
-    <bean id="myCoach"
+    <bean id="basketballCoach"
+    	class="springdemo.BasketballCoach">
+    </bean>
+    
+    <bean id="baseballCoach"
     	class="springdemo.BaseballCoach">
+    </bean>
+    
+    <bean id="trackCoach"
+    	class="springdemo.TrackCoach">
     </bean>
     
     <!-- 
